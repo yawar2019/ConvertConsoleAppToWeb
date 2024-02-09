@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table style="solid 1px">
+    <tr>
+        <th>Service Type</th>
+        <th>First Instance</th>
+        <th>Second Instance</th>
+    </tr>
+    <tr>
+        <td>SingleTon</td>
+        <td>@ViewBag.singleton1</td>
+        <td>@ViewBag.singleton2</td>
+    </tr>
+    <tr>
+        <td>Scoped</td>
+        <td>@ViewBag.scoped1</td>
+        <td>@ViewBag.scoped2</td>
+    </tr>
+    <tr>
+        <td>Transient</td>
+        <td>@ViewBag.transient1</td>
+        <td>@ViewBag.transient2</td>
+    </tr>
+</table>

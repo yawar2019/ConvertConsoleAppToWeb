@@ -1,0 +1,45 @@
+﻿@model TestHtmlHelper;
+@{
+    ViewData["Title"] = "GetTagHelperExample";
+    var Av = new Dictionary<string, string>
+            { 
+                { "EmpId", "1211" },
+                { "EmpName", "Jivan" }
+           
+                
+                }; 
+
+
+    
+}
+
+<h1>GetTagHelperExample</h1>Avengers
+
+<a asp-controller="Home" asp-action="Index" asp-route-id="123" asp-route-name="savita" asp-fragment="Cargo">Home</a>
+               <br />
+<a asp-route="Avengers" asp-all-route-data="Av">Avengers Movie</a>
+
+<a asp-protocol="https"
+   asp-host="microsoft.com"
+   asp-controller="Home"
+   asp-action="About">About</a>
+
+<form asp-controller="Home" asp-action="Index" method="post">
+    Email:  <input asp-for="CompanyEmail" />
+    <span asp-validation-for="CompanyEmail"></span>
+
+    <br />
+    Password: <input asp-for="Password" />
+    <span asp-validation-for="Password"></span>
+
+    <br />
+    <select asp-for="EnumCountry" asp-items="Html.GetEnumSelectList<CountryEnum>()"> </select>
+<br />
+<span>Agreed</span><input type="checkbox" asp-for="Agreed" checked="true" />
+<textarea asp-for="Description"></textarea>
+<button type="submit">Register</button>
+</form>
+
+<environment exclude="Development">
+<img src="~/img/img1.jpg"  alt="images" />
+</environment>

@@ -1,0 +1,22 @@
+﻿@model List<TestCore.Models.EmployeeModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table>
+    <tr>
+        <th>EmpId</th>
+        <th>Name</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        
+    
+    <tr>
+        <td>@item.EmpId</td>
+        <td>@item.EmpName</td>
+    </tr>
+    }
+</table>
