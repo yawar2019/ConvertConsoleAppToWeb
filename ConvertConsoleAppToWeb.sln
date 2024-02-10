@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCore", "TestCore\TestCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstApproach", "CodeFirstApproach\CodeFirstApproach.csproj", "{9972E4D6-6DDB-4330-9588-3AC8FD40565F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseFirstApproach", "DataBaseFirstApproach\DataBaseFirstApproach.csproj", "{D1F1D04A-9A3E-42B4-AF5C-C7E776418DC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBaseFirstApproach", "DataBaseFirstApproach\DataBaseFirstApproach.csproj", "{D1F1D04A-9A3E-42B4-AF5C-C7E776418DC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstApproach2Way", "CodeFirstApproach2Way\CodeFirstApproach2Way.csproj", "{B5125096-228F-4305-927C-967BE5243911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstApproach2Way", "CodeFirstApproach2Way\CodeFirstApproach2Way.csproj", "{B5125096-228F-4305-927C-967BE5243911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApiProject", "SampleApiProject\SampleApiProject.csproj", "{66DC91D5-F382-40C6-9CDC-C7288C35C38B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B5125096-228F-4305-927C-967BE5243911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5125096-228F-4305-927C-967BE5243911}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5125096-228F-4305-927C-967BE5243911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66DC91D5-F382-40C6-9CDC-C7288C35C38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DC91D5-F382-40C6-9CDC-C7288C35C38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DC91D5-F382-40C6-9CDC-C7288C35C38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DC91D5-F382-40C6-9CDC-C7288C35C38B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
